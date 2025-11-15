@@ -1,12 +1,47 @@
-# React + Vite
+# Dinithi Palliyaguru – React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Screenshot](./assets/portfolio-screenshot.png)
 
-Currently, two official plugins are available:
+Hi! I'm **Dinithi**, a **Frontend Developer** (born 2003) passionate about building modern and responsive web applications with **React** and **Tailwind CSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 About This Project
+This is my personal **React Portfolio** where I showcase my projects, skills, and experience as a frontend developer.  
+It features:
+- Responsive design with **Tailwind CSS**  
+- Interactive **project cards** with hover animations  
+- Sections: About Me, Projects, Skills, and Contact  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Technologies Used
+- **Frontend:** React, Tailwind CSS, Framer Motion  
+- **Tools:** VS Code, Git, GitHub, Figma  
+- **Optional:** React Router for navigation  
+
+---
+
+## 💻 Projects Showcase
+Here are some of the projects displayed in my portfolio:
+
+| Project | Tech | Live Demo | GitHub |
+|---------|------|-----------|--------|
+| Dinu Clothing Shop | React, Tailwind, Framer Motion | [Live](#) | [Code](#) |
+| Vehicle Auction System | Spring Boot, MySQL, REST API | [Live](#) | [Code](#) |
+| PetCare Mobile App | React Native, Expo | [Live](#) | [Code](#) |
+| Food Recipe Website | HTML, CSS, JS | [Live](#) | [Code](#) |
+
+*(Replace `#` with actual links)*
+
+---
+
+## 📫 Contact
+- **Email:** your.email@example.com  
+- **LinkedIn:** [linkedin.com/in/dinithi](https://linkedin.com)  
+- **GitHub:** [github.com/Dinithilakshani](https://github.com/Dinithilakshani)
+
+---
+
+## ⚡ Fun Fact
+When I’m not coding, I love exploring **new technologies**, improving UI/UX skills, and contributing to **open source projects**.

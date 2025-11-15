@@ -1,47 +1,48 @@
-# Dinithi Palliyaguru – React Portfolio
+<p align="center">
+  <img src="https://via.placeholder.com/800x200/000000/ff69b4?text=Dinithi+Portfolio" alt="Portfolio Header"/>
+</p>
 
-![Portfolio Screenshot](./assets/portfolio-screenshot.png)
+<h1 align="center">🎀 Dinithi Palliyaguru – Frontend Developer</h1>
 
-Hi! I'm **Dinithi**, a **Frontend Developer** (born 2003) passionate about building modern and responsive web applications with **React** and **Tailwind CSS**.
-
----
-
-## 🚀 About This Project
-This is my personal **React Portfolio** where I showcase my projects, skills, and experience as a frontend developer.  
-It features:
-- Responsive design with **Tailwind CSS**  
-- Interactive **project cards** with hover animations  
-- Sections: About Me, Projects, Skills, and Contact  
+<p align="center">
+  <em>Born in 2003 | Passionate React & Tailwind Developer | Creative & Modern UI Enthusiast</em>
+</p>
 
 ---
 
-## 🛠 Technologies Used
-- **Frontend:** React, Tailwind CSS, Framer Motion  
-- **Tools:** VS Code, Git, GitHub, Figma  
-- **Optional:** React Router for navigation  
+## 💖 About Me
+Hi! I'm **Dinithi**, a **Frontend Developer** specializing in **React** and **Tailwind CSS**.  
+I love building **modern, responsive, and interactive web applications** with clean and maintainable code.  
+
+- Born in **2003**  
+- Frontend focused with eye for **design and animations**  
+- Passionate about **UI/UX, creative layouts, and responsive design**  
 
 ---
 
-## 💻 Projects Showcase
-Here are some of the projects displayed in my portfolio:
+## 🎨 Skills & Tools
 
-| Project | Tech | Live Demo | GitHub |
-|---------|------|-----------|--------|
-| Dinu Clothing Shop | React, Tailwind, Framer Motion | [Live](#) | [Code](#) |
-| Vehicle Auction System | Spring Boot, MySQL, REST API | [Live](#) | [Code](#) |
-| PetCare Mobile App | React Native, Expo | [Live](#) | [Code](#) |
-| Food Recipe Website | HTML, CSS, JS | [Live](#) | [Code](#) |
-
-*(Replace `#` with actual links)*
+| Frontend | Backend | Tools |
+|----------|---------|-------|
+| React | Node.js | Git & GitHub |
+| Tailwind CSS | Express (basic) | VS Code |
+| HTML5 & CSS3 | MySQL / MongoDB | Figma / Canva |
+| Framer Motion | REST APIs | Vercel / Netlify |
 
 ---
 
-## 📫 Contact
-- **Email:** your.email@example.com  
-- **LinkedIn:** [linkedin.com/in/dinithi](https://linkedin.com)  
-- **GitHub:** [github.com/Dinithilakshani](https://github.com/Dinithilakshani)
 
 ---
 
-## ⚡ Fun Fact
-When I’m not coding, I love exploring **new technologies**, improving UI/UX skills, and contributing to **open source projects**.
+
+
+---
+
+## ✨ Fun Fact
+When I'm not coding, I enjoy:  
+- Exploring **new web technologies**  
+- Designing **UI/UX** concepts  
+- Sharing **knowledge and tutorials** with the dev community  
+
+---
+

@@ -1,5 +1,0 @@
-export function ShoppingCart() {
-    return (
-        <></>
-    )
-}

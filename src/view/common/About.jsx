@@ -1,4 +1,4 @@
-export function Service() {
+export function About() {
     return (
         <></>
     )

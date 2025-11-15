@@ -1,13 +1,13 @@
-import Navbar from './view/common/navbar/Navbar.jsx'
-import {MainContent} from './view/common/maincontent/MainContent.jsx'
-import Footer from './view/common/footer/Footer.jsx'
+import Navbar from './view/common/Navbar.jsx'
+import Hero from './view/common/Hero.jsx'
+
 
 function App() {
     return (
         <>
             <Navbar />
-            <MainContent />
-            <Footer />
+            <Hero />
+
         </>
     )
 }

@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="https://via.placeholder.com/800x200/000000/ff69b4?text=Dinithi+Portfolio" alt="Portfolio Header"/>
+ 
+o" alt="Portfolio Header"/>
 </p>
 
 <h1 align="center">🎀 Dinithi Palliyaguru – Frontend Developer</h1>
@@ -9,7 +10,6 @@
 </p>
 
 ---
-
 ## 💖 About Me
 Hi! I'm **Dinithi**, a **Frontend Developer** specializing in **React** and **Tailwind CSS**.  
 I love building **modern, responsive, and interactive web applications** with clean and maintainable code.  

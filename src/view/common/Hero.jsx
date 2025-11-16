@@ -168,7 +168,7 @@ export default function Portfolio() {
                 <section id="home" className="pt-24 min-h-screen flex flex-col items-center justify-center px-6">
                     {/* Profile avatar */}
                     <img
-                        src="/image/WhatsApp%20Image%202025-09-08%20at%2011.48.20.jpeg"
+                        src="src/images/dinithi.jpeg"
                         alt="Dinithi Palliyaguru"
                         className="relative w-32 h-32 md:w-80 md:h-80 object-cover rounded-full shadow-2xl transform group-hover:scale-110 transition-transform duration-300 z-10 border-4 border-pink-500/30"
                     />
@@ -379,7 +379,7 @@ export default function Portfolio() {
                             {/* Project 1 */}
                             <div className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
                                 <div className="h-48 overflow-hidden">
-                                    <img src="/src/image/gettyimages-1294081164-612x612.jpg" alt="Auction System" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img src="/src/images/gettyimages-1294081164-612x612.jpg" alt="Auction System" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">Vehicle Auction System (Spring Boot + MySQL)</h3>
@@ -404,7 +404,7 @@ export default function Portfolio() {
                             {/* Project 2 */}
                             <div className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
                                 <div className="h-48 overflow-hidden">
-                                    <img src="/src/image/pexels-kowalievska-1148957 (1).jpg" alt="Dinu Clothing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img src="/src/images/pexels-kowalievska-1148957 (1).jpg" alt="Dinu Clothing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">Dinu Clothing Shop – React & Tailwind</h3>
@@ -444,7 +444,7 @@ export default function Portfolio() {
                             {/* Project 4 */}
                             <div className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
                                 <div className="h-48 overflow-hidden">
-                                    <img src="/src/image/istockphoto-2110310187-612x612.webp" alt="Charlie’s House" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img src="/src/images/istockphoto-2110310187-612x612.webp" alt="Charlie’s House" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">Charlie’s House (Bootstrap)</h3>
@@ -464,7 +464,7 @@ export default function Portfolio() {
                             {/* Project 5 */}
                             <div className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
                                 <div className="h-48 overflow-hidden">
-                                    <img src="src/image/240_F_954800751_M0QGgNskbUcytkRhSp7a5qLnyp0pYOXa.jpg" alt="Recipe Finder" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img src="../../images/recipe.jpg" alt="Recipe Finder" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">Recipe Finder</h3>
@@ -484,7 +484,7 @@ export default function Portfolio() {
                             {/* Project 6 */}
                             <div className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
                                 <div className="h-48 overflow-hidden">
-                                    <img src="src/image/images.jpg" alt="PetCare App" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img src="../../images/images.jpg" alt="PetCare App" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">PetCare Mobile App</h3>

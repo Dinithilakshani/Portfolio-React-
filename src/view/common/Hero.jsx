@@ -168,7 +168,7 @@ export default function Portfolio() {
                 <section id="home" className="pt-24 min-h-screen flex flex-col items-center justify-center px-6">
                     {/* Profile avatar */}
                     <img
-                        src="src/image/WhatsApp%20Image%202025-09-08%20at%2011.48.20.jpeg"
+                        src="/image/WhatsApp%20Image%202025-09-08%20at%2011.48.20.jpeg"
                         alt="Dinithi Palliyaguru"
                         className="relative w-32 h-32 md:w-80 md:h-80 object-cover rounded-full shadow-2xl transform group-hover:scale-110 transition-transform duration-300 z-10 border-4 border-pink-500/30"
                     />

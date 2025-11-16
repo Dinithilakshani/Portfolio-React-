@@ -453,7 +453,7 @@ export default function Portfolio() {
                             {/* Project 3 */}
                             <div className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
                                 <div className="h-48 overflow-hidden">
-                                    <img src="/asset/car-parking-system.png" alt="Car Parking" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img src="/images/autonomous-car-sensor-parking-illustration-scaled.jpg" alt="Car Parking" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">Car Parking System – Microservices</h3>

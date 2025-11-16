@@ -1,12 +1,48 @@
-# React + Vite
+<p align="center">
+ 
+o" alt="Portfolio Header"/>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">🎀 Dinithi Palliyaguru – Frontend Developer</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  <em>Born in 2003 | Passionate React & Tailwind Developer | Creative & Modern UI Enthusiast</em>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+## 💖 About Me
+Hi! I'm **Dinithi**, a **Frontend Developer** specializing in **React** and **Tailwind CSS**.  
+I love building **modern, responsive, and interactive web applications** with clean and maintainable code.  
 
-## Expanding the ESLint configuration
+- Born in **2003**  
+- Frontend focused with eye for **design and animations**  
+- Passionate about **UI/UX, creative layouts, and responsive design**  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎨 Skills & Tools
+
+| Frontend | Backend | Tools |
+|----------|---------|-------|
+| React | Node.js | Git & GitHub |
+| Tailwind CSS | Express (basic) | VS Code |
+| HTML5 & CSS3 | MySQL / MongoDB | Figma / Canva |
+| Framer Motion | REST APIs | Vercel / Netlify |
+
+---
+
+
+---
+
+
+
+---
+
+## ✨ Fun Fact
+When I'm not coding, I enjoy:  
+- Exploring **new web technologies**  
+- Designing **UI/UX** concepts  
+- Sharing **knowledge and tutorials** with the dev community  
+
+---
+

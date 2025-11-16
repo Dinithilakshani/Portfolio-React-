@@ -168,7 +168,7 @@ export default function Portfolio() {
                 <section id="home" className="pt-24 min-h-screen flex flex-col items-center justify-center px-6">
                     {/* Profile avatar */}
                     <img
-                        src="src/images/dinithi.jpeg"
+                        src="/images/dinithi.jpeg"
                         alt="Dinithi Palliyaguru"
                         className="relative w-32 h-32 md:w-80 md:h-80 object-cover rounded-full shadow-2xl transform group-hover:scale-110 transition-transform duration-300 z-10 border-4 border-pink-500/30"
                     />
@@ -292,22 +292,29 @@ export default function Portfolio() {
                     <div className="max-w-4xl mx-auto space-y-12">
                         {/* GDSE */}
                         <div className="relative pl-8 border-l-2 border-pink-500/30">
-                            <div className="absolute -left-3 top-0 w-6 h-6 bg-pink-500 rounded-full border-4 border-black"/>
-                            <div className="bg-gray-900/30 border border-pink-500/20 rounded-xl p-6 hover:border-pink-500/50 transition-all duration-300 hover:scale-[1.02]">
+                            <div
+                                className="absolute -left-3 top-0 w-6 h-6 bg-pink-500 rounded-full border-4 border-black"/>
+                            <div
+                                className="bg-gray-900/30 border border-pink-500/20 rounded-xl p-6 hover:border-pink-500/50 transition-all duration-300 hover:scale-[1.02]">
                                 <div className="flex items-start justify-between mb-4 flex-wrap gap-2">
                                     <div>
-                                        <h3 className="text-2xl font-bold text-pink-500 mb-2">Graduate Diploma in Software Engineering (GDSE)</h3>
-                                        <p className="text-gray-300 font-medium">Institute of Java & Software Engineering (IJSE)</p>
+                                        <h3 className="text-2xl font-bold text-pink-500 mb-2">Graduate Diploma in
+                                            Software Engineering (GDSE)</h3>
+                                        <p className="text-gray-300 font-medium">Institute of Java & Software
+                                            Engineering (IJSE)</p>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-400">
-                                        <Calendar className="w-4 h-4" />
+                                        <Calendar className="w-4 h-4"/>
                                         <span>2023 - 2025</span>
                                     </div>
                                 </div>
-                                <p className="text-gray-400 mb-4">Advanced diploma program covering full-stack development, algorithms, data structures, and enterprise application development.</p>
+                                <p className="text-gray-400 mb-4">Advanced diploma program covering full-stack
+                                    development, algorithms, data structures, and enterprise application
+                                    development.</p>
                                 <div className="flex flex-wrap gap-2">
                                     {['Advanced Java', 'Spring Framework', 'MySQL', 'Git & GitHub', 'Agile'].map((topic) => (
-                                        <span key={topic} className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-pink-300 text-sm">
+                                        <span key={topic}
+                                              className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-pink-300 text-sm">
                       {topic}
                     </span>
                                     ))}
@@ -317,47 +324,65 @@ export default function Portfolio() {
 
                         {/* A/L */}
                         <div className="relative pl-8 border-l-2 border-pink-500/30">
-                            <div className="absolute -left-3 top-0 w-6 h-6 bg-pink-500 rounded-full border-4 border-black" />
-                            <div className="bg-gray-900/30 border border-pink-500/20 rounded-xl p-6 hover:border-pink-500/50 transition-all duration-300 hover:scale-[1.02]">
+                            <div
+                                className="absolute -left-3 top-0 w-6 h-6 bg-pink-500 rounded-full border-4 border-black"/>
+                            <div
+                                className="bg-gray-900/30 border border-pink-500/20 rounded-xl p-6 hover:border-pink-500/50 transition-all duration-300 hover:scale-[1.02]">
                                 <div className="flex items-start justify-between mb-4 flex-wrap gap-2">
                                     <div>
-                                        <h3 className="text-2xl font-bold text-pink-500 mb-2">G.C.E Advanced Level (A/L)</h3>
-                                        <p className="text-gray-300 font-medium">Physical Science Stream</p>
+                                        <h3 className="text-2xl font-bold text-pink-500 mb-2">G.C.E Advanced Level
+                                            (A/L)</h3>
+                                        <p className="text-gray-300 font-medium">Commerce Stream</p>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-400">
-                                        <Calendar className="w-4 h-4" />
+                                        <Calendar className="w-4 h-4"/>
                                         <span>2020 - 2021</span>
                                     </div>
                                 </div>
-                                <p className="text-gray-400 mb-4">Completed Advanced Level education with focus on Mathematics, Physics, and Chemistry - building strong analytical and problem-solving foundations.</p>
+
+                                <p className="text-gray-400 mb-4">
+                                    Completed Advanced Level education in the Commerce stream with a focus on
+                                    Accounting, Business Studies, and Economics.
+                                    Developed strong financial, business, and analytical skills.
+                                </p>
+
                                 <div className="flex flex-wrap gap-2">
-                                    {['Combined Mathematics', 'Physics', 'Chemistry', 'ICT'].map((subject) => (
-                                        <span key={subject} className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-pink-300 text-sm">
-                      {subject}
-                    </span>
+                                    {['Accounting', 'Business Studies', 'Economics', ].map((subject) => (
+                                        <span
+                                            key={subject}
+                                            className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-pink-300 text-sm"
+                                        >
+                    {subject}
+                </span>
                                     ))}
                                 </div>
                             </div>
                         </div>
 
+
                         {/* O/L */}
                         <div className="relative pl-8 border-l-2 border-pink-500/30">
-                            <div className="absolute -left-3 top-0 w-6 h-6 bg-pink-500 rounded-full border-4 border-black" />
-                            <div className="bg-gray-900/30 border border-pink-500/20 rounded-xl p-6 hover:border-pink-500/50 transition-all duration-300 hover:scale-[1.02]">
+                            <div
+                                className="absolute -left-3 top-0 w-6 h-6 bg-pink-500 rounded-full border-4 border-black"/>
+                            <div
+                                className="bg-gray-900/30 border border-pink-500/20 rounded-xl p-6 hover:border-pink-500/50 transition-all duration-300 hover:scale-[1.02]">
                                 <div className="flex items-start justify-between mb-4 flex-wrap gap-2">
                                     <div>
-                                        <h3 className="text-2xl font-bold text-pink-500 mb-2">G.C.E Ordinary Level (O/L)</h3>
+                                        <h3 className="text-2xl font-bold text-pink-500 mb-2">G.C.E Ordinary Level
+                                            (O/L)</h3>
                                         <p className="text-gray-300 font-medium">General Education</p>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-400">
-                                        <Calendar className="w-4 h-4" />
+                                        <Calendar className="w-4 h-4"/>
                                         <span>2018</span>
                                     </div>
                                 </div>
-                                <p className="text-gray-400 mb-4">Successfully completed Ordinary Level examination with distinction, establishing a strong foundation in core academic subjects.</p>
+                                <p className="text-gray-400 mb-4">Successfully completed Ordinary Level examination with
+                                    distinction, establishing a strong foundation in core academic subjects.</p>
                                 <div className="flex flex-wrap gap-2">
                                     {['Mathematics', 'Science', 'English', 'ICT', '9 Subjects Passed'].map((achievement) => (
-                                        <span key={achievement} className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-pink-300 text-sm">
+                                        <span key={achievement}
+                                              className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-pink-300 text-sm">
                       {achievement}
                     </span>
                                     ))}
@@ -372,17 +397,21 @@ export default function Portfolio() {
                     <div className="max-w-6xl mx-auto">
                         <div className="mb-16">
                             <h2 className="text-4xl md:text-5xl font-bold mb-8 text-pink-500">Projects</h2>
-                            <p className="text-gray-300 text-lg">A showcase of my work - from web applications to full-stack solutions.</p>
+                            <p className="text-gray-300 text-lg">A showcase of my work - from web applications to
+                                full-stack solutions.</p>
                         </div>
 
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                             {/* Project 1 */}
-                            <div className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
+                            <div
+                                className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
                                 <div className="h-48 overflow-hidden">
-                                    <img src="/src/images/gettyimages-1294081164-612x612.jpg" alt="Auction System" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img src="/images/gettyimages-1294081164-612x612.jpg" alt="Auction System"
+                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
                                 </div>
                                 <div className="p-6">
-                                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">Vehicle Auction System (Spring Boot + MySQL)</h3>
+                                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">Vehicle
+                                        Auction System (Spring Boot + MySQL)</h3>
                                     <p className="text-gray-400 mb-4 text-sm">Complete auction system with bidding, admin dashboard, and live updates.</p>
                                     <div className="flex flex-wrap gap-2 mb-4">
                                         {['Spring Boot', 'MySQL', 'REST API'].map((tech) => (
@@ -404,7 +433,7 @@ export default function Portfolio() {
                             {/* Project 2 */}
                             <div className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
                                 <div className="h-48 overflow-hidden">
-                                    <img src="/src/images/pexels-kowalievska-1148957 (1).jpg" alt="Dinu Clothing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img src="/images/pexels-kowalievska-1148957 (1).jpg" alt="Dinu Clothing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">Dinu Clothing Shop – React & Tailwind</h3>
@@ -424,7 +453,7 @@ export default function Portfolio() {
                             {/* Project 3 */}
                             <div className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
                                 <div className="h-48 overflow-hidden">
-                                    <img src="/assets/car-parking-system.png" alt="Car Parking" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img src="/asset/car-parking-system.png" alt="Car Parking" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">Car Parking System – Microservices</h3>
@@ -444,7 +473,7 @@ export default function Portfolio() {
                             {/* Project 4 */}
                             <div className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
                                 <div className="h-48 overflow-hidden">
-                                    <img src="/src/images/istockphoto-2110310187-612x612.webp" alt="Charlie’s House" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img src="/images/istockphoto-2110310187-612x612.webp" alt="Charlie’s House" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">Charlie’s House (Bootstrap)</h3>
@@ -464,7 +493,7 @@ export default function Portfolio() {
                             {/* Project 5 */}
                             <div className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
                                 <div className="h-48 overflow-hidden">
-                                    <img src="../../images/recipe.jpg" alt="Recipe Finder" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img src="/images/recipe.jpg" alt="Recipe Finder" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">Recipe Finder</h3>
@@ -484,7 +513,7 @@ export default function Portfolio() {
                             {/* Project 6 */}
                             <div className="group bg-gray-900/30 border border-pink-500/20 rounded-xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/10">
                                 <div className="h-48 overflow-hidden">
-                                    <img src="../../images/images.jpg" alt="PetCare App" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img src="/images/images.jpg" alt="PetCare App" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-pink-500 transition-colors">PetCare Mobile App</h3>
